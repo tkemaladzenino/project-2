@@ -1,314 +1,427 @@
-   @font-face {
-       font-family: Poppins;
-       src: url(../../fonts/Poppins-Regular.ttf)
-   }
+    @font-face {
+        font-family: Poppins;
+        src: url(../../fonts/Poppins-Regular.ttf)
+    }
 
-   @font-face {
-       font-family: Roboto;
-       src: url(../../fonts/Roboto-Regular.ttf)
-   }
+    @font-face {
+        font-family: Roboto;
+        src: url(../../fonts/Roboto-Regular.ttf)
+    }
 
 
 
 
-   /*--------------------------------header----------------------------*/
+    /*--------------------------------header----------------------------*/
+    .main1 {
+        background-color: #ffd007f2;
+    }
 
+    .navbar {
+        background-color: #ffd007f2;
+    }
 
-   .nav-item img {
-       border-radius: 50%;
-   }
+    .nav-item img {
+        border-radius: 50%;
+    }
 
-   .Crowdfund {
+    .Crowdfund {
 
-       padding-left: 23.38px;
-   }
+        padding-left: 23.38px;
+    }
 
-   .pa-2 {
+    .pa-2 {
 
-       padding-right: 14px;
-   }
+        padding-right: 14px;
+    }
 
-   a.navbar-brand>:nth-child(2) {
-       padding-left: 20px;
-   }
 
+    @media screen and (max-width:768px) {
+        ul.nav.navbar-nav {
+            padding-left: 280px;
+        }
+    }
 
 
-   .BPLAY {
-       font-family: Poppins;
-       font-style: normal;
-       font-weight: 600;
-       font-size: 16px;
-       line-height: 21px;
-       text-align: center;
-       letter-spacing: 2px;
-       color: #000000;
-   }
+    .navbar-toggler {
+        width: 50px;
+        height: 40px;
+    }
 
-   .dropdown-menu-show {
-       width: 20px;
-   }
 
-   #dropdownMenuButton1 {
-       border: none;
-   }
+    .nav {
+        margin-left: auto;
 
-   ul.dropdown-menu .show {
-       width: 20px;
-   }
+    }
 
-   .pb-2 {
-       font-family: Roboto;
-       font-style: normal;
-       font-weight: 400;
-       font-size: 18px;
-       line-height: 21px;
-       color: #1B1B1B;
-       text-decoration: none;
-   }
-
-   ul.nav.navbar-nav {
-       align-items: center;
-   }
-
-
-
-
-   /*---------------- first bunner -----*/
-
-   .Bluetooth-Speaker {
-       font-family: Poppins;
-       font-style: normal;
-       font-weight: 600;
-       font-size: 72px;
-       line-height: 84px;
-       text-align: center;
-       letter-spacing: -4px;
-       color: #1B1B1B;
-   }
-
-   .button-1-div {
-       padding-top: 42px;
-       display: flex;
-       justify-content: center;
-   }
-
-   .btn-1 {
-       height: 60px;
-       width: 402px;
-       display: flex;
-       gap: 19px;
-
-       justify-content: center;
-       align-items: center;
-       border-radius: 100px;
-
-   }
-
-   .price {
-       font-family: Roboto;
-       font-style: normal;
-       font-weight: 500;
-       font-size: 26px;
-       line-height: 38px;
-       color: #1B1B1B;
-   }
-
-   .pledged {
-       font-family: Roboto;
-       font-style: normal;
-       font-weight: 500;
-       font-size: 18px;
-       line-height: 28px;
-
-       color: #1B1B1B;
-   }
-
-
-   .img-background-div img {
-       width: 100%;
-       height: 529px;
-       padding-top: 38px;
-       position: relative;
-   }
-
-
-   .circle {
-       position: absolute;
-       left: 630px;
-       top: 230px;
-       right: 0;
-       z-index: 1;
-   }
-
-   .circle {
-
-       width: 889.5px;
-       height: 462px;
-   }
-
-
-   .assembled {
-       font-family: Poppins;
-       font-style: normal;
-       font-weight: 700;
-       font-size: 14px;
-       line-height: 24px;
-       letter-spacing: 2px;
-       color: #1B1B1B;
-   }
-
-   .Screens {
-       font-family: Roboto;
-       font-style: normal;
-       font-weight: 400;
-       font-size: 16px;
-       line-height: 24px;
-       color: #1B1B1B;
-   }
-
-   .first-group-div {
-       display: flex;
-       flex-direction: row;
-       gap: 32px;
-       padding-top: 162px;
-       padding-left: 100px;
-
-   }
-
-   .text-div-1 {
-       display: flex;
-       flex-direction: column;
-   }
-
-   .second-group-div {
-       display: flex;
-       flex-direction: row;
-       gap: 32px;
-       padding-top: 53px;
-       padding-left: 100px;
-   }
-
-   .text-div-2 {
-       display: flex;
-       flex-direction: column;
-   }
-
-   .aaa {
-       position: relative;
-       bottom: 100px;
-   }
+    a.navbar-brand>:nth-child(2) {
+        padding-left: 20px;
+    }
 
+    .BPLAY {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 21px;
+        text-align: center;
+        letter-spacing: 2px;
+        color: #000000;
+    }
 
+    .dropdown-menu-show {
+        width: 20px;
+    }
+
+    #dropdownMenuButton1 {
+        border: none;
+    }
 
+    ul.dropdown-menu .show {
+        width: 20px;
+    }
+
+    .pb-2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #1B1B1B;
+        text-decoration: none;
+    }
+
+    ul.nav.navbar-nav {
+        align-items: center;
+    }
+
+
+
+
+    /*---------------- first bunner -----*/
 
-   /* -----------------   footer ----------------*/
+    .Bluetooth-Speaker {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 72px;
+        line-height: 84px;
+        text-align: center;
+        letter-spacing: -4px;
+        color: #1B1B1B;
+    }
+
+    @media screen and (max-width:768px) {
+        .Bluetooth-Speaker {
+            font-size: 56px;
+        }
+    }
+
+
+
+    .button-1-div {
+        padding-top: 42px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn-1 {
+        height: 60px;
+        width: 402px;
+        display: flex;
+        gap: 19px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100px;
+    }
+
+    @media screen and (max-width:768px) {
+        .btn-1 {
+            width: 100%;
+            gap: 14px;
+        }
+    }
+
+
+    .price {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 38px;
+        color: #1B1B1B;
+    }
+
+    @media screen and (max-width:768px) {
+        .price {
+            font-size: 22px;
+
+        }
+    }
+
+    @media screen and (max-width:320px) {
+        .price {
+            font-size: 20px;
+
+        }
+    }
+
+    .pledged {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        color: #1B1B1B;
+    }
+
+
+    @media screen and (max-width:768px) {
+        .pledged {
+            font-size: 16px;
+            line-height: 20px;
+        }
+    }
+
+    @media screen and (max-width:414px) {
+        .pledged {
+            font-size: 14px;
+            line-height: 18px;
+        }
+    }
+
+    .img-background-div img {
+        width: 100%;
+        height: 529px;
+        padding-top: 38px;
+        position: relative;
+    }
+
+
+
+    .circle {
+        position: absolute;
+        left: 630px;
+        top: 230px;
+        right: 0;
+        z-index: 1;
+    }
+
+    .circle {
+
+        width: 889.5px;
+        height: 462px;
+    }
+
+
+    .assembled {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 2px;
+        color: #1B1B1B;
+    }
+
+    .Screens {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #1B1B1B;
+    }
+
+    .first-group-div {
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+        padding-top: 162px;
+        padding-left: 100px;
+    }
+
+    .text-div-1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    @media screen and (max-width:768px) {
+        .first-group-div {
+            padding-left: 20px;
+        }
+    }
 
-
-   .footer {
-       position: absolute;
-
-   }
-
-   .footer-1 {
-       display: flex;
-       flex-direction: row;
-
-       position: absolute;
-       bottom: -120px;
-   }
-
-   ul {
-       list-style: none;
-   }
-
-   .footer-1>:nth-child(1) {
-       padding-right: 220px;
-       padding-left: 30px;
-       font-family: Roboto;
-       font-style: normal;
-       font-weight: 400;
-       font-size: 14px;
-       line-height: 16px;
-
-       color: #000000;
-   }
-
-   .footer-1>:nth-child(2) {
-       padding-right: 33px;
-       font-family: Poppins;
-       font-style: normal;
-       font-weight: 600;
-       font-size: 14px;
-       line-height: 24px;
-   }
-
-   .footer-1>:nth-child(3) {
-       padding-right: 33px;
-       font-family: Poppins;
-       font-style: normal;
-       font-weight: 600;
-       font-size: 14px;
-       line-height: 24px;
-   }
-
-   .footer-1>:nth-child(4) {
-       padding-right: 34px;
-       color: #FFFFFF;
-       font-family: Poppins;
-       font-style: normal;
-       font-weight: 600;
-       font-size: 14px;
-       line-height: 20px;
-   }
-
-
-
-   .footer-1>:nth-child(5) {
-       padding-right: 420px;
-       color: #FFFFFF;
-       font-family: Poppins;
-       font-style: normal;
-       font-weight: 600;
-       font-size: 14px;
-       line-height: 20px;
-
-   }
-
-   .footer-1>:nth-child(6) {
-
-       padding-right: 18px;
-
-   }
-
-   .footer-1>:nth-child(7) {
-
-       padding-right: 20px;
-
-   }
-
-   @media screen and (max-width:768px) {
-       ul.nav.navbar-nav {
-           padding-left: 280px;
-       }
-   }
-
-
-
-
-
-
-
-
-   .navbar-toggler {
-       width: 50px;
-       height: 40px;
-
-   }
-
-
-
-   .nav {
-       margin-left: auto;
-
-   }
+
+    .second-group-div {
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+        padding-top: 53px;
+        padding-left: 100px;
+    }
+
+    @media screen and (max-width:768px) {
+        .second-group-div {
+            padding-left: 20px;
+        }
+    }
+
+    .text-div-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aaa {
+        position: relative;
+        bottom: 100px;
+    }
+
+    @media screen and (max-width:768px) {
+        .bbb {
+            display: none !important;
+        }
+
+    }
+
+
+
+    /* -----------------   footer ----------------*/
+
+
+
+
+    .foot-1 {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        bottom: -120px;
+    }
+
+    @media screen and (max-width:768px) {
+        .footer-1 {
+            display: none;
+
+        }
+
+        .footer-2 {
+            display: flex !important;
+            flex-direction: row;
+
+
+        }
+    }
+
+    .footer-2 {
+        display: none;
+
+    }
+
+    .foot-2 a {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .foot-2 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+
+        letter-spacing: 2px;
+        color: #000000;
+    }
+
+
+
+    ul {
+
+        list-style: none;
+        display: inline;
+
+    }
+
+    .foot-1 a {
+
+        color: #000000;
+        text-decoration: none;
+    }
+
+
+
+    .white-1 a {
+        color: #ffffff;
+    }
+
+    .white-2 a {
+        color: #ffffff;
+    }
+
+    .three {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .foot-1>:nth-child(1) {
+        padding-right: 240px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+
+    }
+
+    .foot-1>:nth-child(2) {
+        padding-right: 33px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 2px;
+        color: #000000;
+
+    }
+
+
+    .foot-1>:nth-child(3) {
+        padding-right: 33px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .foot-1>:nth-child(4) {
+        padding-right: 34px;
+        color: #FFFFFF;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .foot-1>:nth-child(5) {
+        padding-right: 420px;
+        color: #FFFFFF;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+
+    }
+
+    .foot-1>:nth-child(6) {
+        padding-right: 18px;
+    }
+
+    .foot-1>:nth-child(7) {
+        padding-right: 20px;
+    }
