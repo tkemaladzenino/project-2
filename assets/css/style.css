@@ -372,6 +372,13 @@
         }
     }
 
+    @media screen and (max-width:768px) {
+        .three svg>path {
+            fill: black;
+
+        }
+    }
+
 
 
     .foot-1>:nth-child(1) {

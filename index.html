@@ -22,17 +22,21 @@
     <nav class="navbar navbar-expand-lg p-3  navbar-dark">
 
         <div class="two">
-            <a class="navbar-brand" href="#">
+            <a class="dropdown" href="#">
                 <img src="./images/squared-menu.png" width="23.55" height="23.55">
                 <img src="./images/Crowdfund..png">
             </a>
         </div>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-controls="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <a href class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbardropdown"
+            aria-controls="navbardropdown" aria-controls="Toggle navigation">
+
+            <button class="btn btn-small dropdown-toggle" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+
+            </button>
+        </a>
+        <div class="collapse navbar-collapse" id="navbardropdown">
             <ul class="nav navbar-nav">
 
                 <li class="nav-item">
@@ -57,6 +61,8 @@
                 </div>
 
             </ul>
+
+
         </div>
     </nav>
 
@@ -176,9 +182,23 @@
                 <li class="#"><a href="#">TERMS OF USE </a></li>
                 <li class="#"><a href="#">PRIVACY POLICY </a></li>
                 <div class="three">
-                    <li><img src="./images/Twitter.png"> </li>
-                    <li><img src="./images/Facebook.png"> </li>
-                    <li><img src="./images/YouTube.png"> </li>
+                    <li><svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M15.9008 3.48683C15.907 3.63859 15.9105 3.79124 15.9105 3.94478C15.9105 8.61532 12.4027 14 5.98781 14C4.01807 14 2.18488 13.4153 0.640625 12.4128C0.91371 12.4449 1.1912 12.4619 1.47309 12.4619C3.1072 12.4619 4.61093 11.8968 5.80458 10.9488C4.27794 10.9202 2.99004 9.89811 2.54694 8.49391C2.75924 8.53587 2.97771 8.55818 3.20234 8.55818C3.52035 8.55818 3.82868 8.51444 4.12114 8.4341C2.52579 8.10916 1.32422 6.68086 1.32422 4.96869C1.32422 4.95352 1.32422 4.93834 1.32422 4.92406C1.79463 5.18829 2.33199 5.34719 2.90371 5.36594C1.96817 4.73213 1.35241 3.65019 1.35241 2.42454C1.35241 1.77645 1.52419 1.16942 1.82458 0.647198C3.54502 2.78518 6.11466 4.19295 9.01289 4.34024C8.95387 4.08136 8.92304 3.81177 8.92304 3.53415C8.92304 1.58273 10.484 0 12.4106 0C13.414 0 14.3204 0.429382 14.9565 1.11675C15.7511 0.957852 16.4972 0.664159 17.1711 0.258879C16.9112 1.08372 16.358 1.77645 15.6374 2.21386C16.343 2.12906 17.0152 1.93891 17.6406 1.65772C17.1729 2.36651 16.5818 2.98871 15.9008 3.48683Z"
+                                fill="white" />
+                        </svg></li>
+                    <li><svg width="9" height="17" viewBox="0 0 9 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M5.95966 17H2.41299V8.5H0.640625V5.57H2.41299V3.81161C2.41299 1.42295 3.41421 0 6.25603 0H8.62308V2.93H7.14416C6.03765 2.93 5.96356 3.33987 5.96356 4.10355L5.95966 5.57H8.64062L8.32671 8.5H5.95966V17"
+                                fill="white" />
+                        </svg>
+                    </li>
+                    <li><svg width="21" height="14" viewBox="0 0 21 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M8.57562 9.58173L8.575 3.98907L13.9788 6.79504L8.57562 9.58173ZM20.4406 3.01995C20.4406 3.01995 20.245 1.64838 19.6456 1.04439C18.885 0.2513 18.0325 0.247567 17.6419 0.201537C14.8431 0 10.645 0 10.645 0H10.6362C10.6362 0 6.43812 0 3.63937 0.201537C3.24813 0.247567 2.39625 0.2513 1.635 1.04439C1.03562 1.64838 0.840625 3.01995 0.840625 3.01995C0.840625 3.01995 0.640625 4.631 0.640625 6.24144V7.75172C0.640625 9.36278 0.840625 10.9732 0.840625 10.9732C0.840625 10.9732 1.03562 12.3448 1.635 12.9488C2.39625 13.7419 3.39563 13.717 3.84063 13.7997C5.44063 13.9527 10.6406 14 10.6406 14C10.6406 14 14.8431 13.9938 17.6419 13.7922C18.0325 13.7456 18.885 13.7419 19.6456 12.9488C20.245 12.3448 20.4406 10.9732 20.4406 10.9732C20.4406 10.9732 20.6406 9.36278 20.6406 7.75172V6.24144C20.6406 4.631 20.4406 3.01995 20.4406 3.01995Z"
+                                fill="white" />
+                        </svg>
+                    </li>
                 </div>
             </ul>
         </footer>
