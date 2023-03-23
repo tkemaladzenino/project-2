@@ -12,13 +12,9 @@
 
 
     /*--------------------------------header----------------------------*/
-    .main1 {
-        background-color: #f1ce4c;
-    }
 
-    .navbar {
-        background-color: #f1ce4c;
-    }
+
+
 
     .nav-item img {
         border-radius: 50%;
@@ -196,22 +192,19 @@
         height: 529px;
         padding-top: 38px;
         position: relative;
+
     }
 
 
-
     .circle {
+
+        width: 100%;
         position: absolute;
-        left: 630px;
-        top: 230px;
+        left: 0;
         right: 0;
+        top: -20px;
         z-index: 1;
-    }
 
-    .circle {
-
-        width: 889.5px;
-        height: 462px;
     }
 
 
@@ -250,6 +243,7 @@
     @media screen and (max-width:768px) {
         .first-group-div {
             padding-left: 20px;
+            padding-top: 60px;
         }
     }
 
@@ -260,6 +254,7 @@
         gap: 32px;
         padding-top: 53px;
         padding-left: 100px;
+
     }
 
     @media screen and (max-width:768px) {
@@ -274,8 +269,22 @@
     }
 
     .aaa {
-        position: relative;
+
         bottom: 100px;
+    }
+
+    @media screen and (max-width:768px) {
+        .aaa {
+            padding-bottom: 50px;
+            padding-left: 100px !important;
+        }
+
+    }
+
+
+    .bbb {
+        position: relative;
+        overflow: hidden;
     }
 
     @media screen and (max-width:768px) {
@@ -286,14 +295,8 @@
     }
 
 
-
     /* -----------------   footer ----------------*/
-    .footer {
-        display: flex;
-        flex-direction: row;
-        position: absolute;
-        bottom: -100px;
-    }
+
 
     ul {
         list-style: none;
@@ -320,8 +323,13 @@
     @media screen and (max-width:768px) {
         .foot-1 {
             font-size: 12px;
-            padding: 0px;
+            justify-content: center;
+
         }
+    }
+
+    .text-2019-div {
+        padding-left: 15px;
     }
 
     .foot-1>:nth-child(1) {
@@ -386,14 +394,14 @@
 
     @media screen and (max-width:768px) {
         .foot-1>:nth-child(2) {
-            padding-right: 15px;
+            padding-right: 20px;
         }
 
     }
 
     @media screen and (max-width:768px) {
         .white-1 {
-            padding-right: 10px;
+            padding-right: 20px;
         }
 
     }
@@ -417,20 +425,31 @@
 
     @media screen and (max-width:768px) {
         .foot-2 {
-            padding-left: 0px;
+            padding-left: 30px;
 
         }
     }
 
-    .fff {
-        position: absolute;
-        bottom: -110px;
+    .footer-1 {
+        padding-left: 10px;
     }
 
     @media screen and (max-width:768px) {
-        .fff {
+        .footer-1 {
             position: inherit;
-            padding-left: 0px;
+            margin: 30px;
+            padding-top: 30px;
+            padding-left: 50px;
+            justify-content: flex-start;
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        .foot-p-1 {
+            display: flex;
+            justify-content: flex-start;
+            padding-left: 20px;
+
 
         }
     }
